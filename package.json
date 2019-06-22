@@ -1,0 +1,27 @@
+{
+  "name": "js_tutorial_2",
+  "version": "0.1.0",
+  "description": "exercise",
+  "main": "count.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmaelSANE/js_tutorial_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsmaelSANE/js_tutorial_2/issues"
+  },
+  "homepage": "https://github.com/IsmaelSANE/js_tutorial_2#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "isane-palindrome": "^0.1.0",
+    "npm": "^6.9.0"
+  }
+}
