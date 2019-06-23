@@ -2,11 +2,16 @@
 
 let fs = require("fs");
 let Phrase = require("isane-palindrome");
+let palindromesArray = [];
 
 let text = fs.readFileSync("phrases.txt", "utf-8");
 text.split("\n").forEach(function(line) {
   let phrase = new Phrase(line);
   if (phrase.palindrome()) {
     console.log("palindrome detected:", line);
+    palindromesArray.push(line);
   }
 });
+
+fs.writeFileSync("palindromes.txt", palindromesArray.join("\n"), "utf8");
+
