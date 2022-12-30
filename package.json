@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/IsmaelSANE/js_tutorial_2#readme",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "gulp": "^4.0.2",
